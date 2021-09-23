@@ -1,38 +1,215 @@
-.App {
+@media only screem and (max-width:425px) {
+ body{
+   background-color: rgb(173, 40, 40);
+ }
+}
+.container-fluid{
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.Img-nav{
+ width: 100px;
+}
+
+.button{
+  border-color: rgb(167, 80, 131);
+  border-radius: 100px;
+  color:rgb(167, 80, 131);
+  font-size: 10px;
+  padding: 2px 10px;
+  background-color: white;
+  margin-left: 162px;
+ 
+}
+
+.header1{
+  font-size: 15px;
+}
+
+.jombleTrum{
   text-align: center;
+  font-size: 8px;
+  width: 80%;
+  margin-left: 20px;
+  margin-top: 30px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.button-header{
+  border-radius: 100px;
+  background-color: rgb(230, 78, 136);
+  color: white;
+  border-color:rgb(230, 78, 136) ;
+  padding: 5px 30px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.img-1A{
+  width: 300px;
+  margin-left: 50px;
+  margin-top: 50px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.section-1{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+text-align: center;
+margin-left: 70px;
+margin-top: 30px;
+}
+.img-section1a{
+  width: 20px;
+  margin-right: 50px;
+}
+.img-section1b{
+  width: 20px;
+  margin-right: 50px;
+}
+.section1B{
+  margin-left: 90px;
+}
+div.section-1 p{
+  font-size: 10px;
+}
+.sectionmain2{
+  background-image: url('../src/images/bg-section-top-mobile-2.svg') ;
+  height: 200px;
+
+}
+.section2A{
+  display: flex;
+  margin: 60px 20px 0 20px;
+  padding-top: 60px;
+  
+   
+}
+div.section2A img{
+  width: 200px;
+}
+div.section2A p{
+  font-size: 10px;
+  width: 80%;
+}
+.section3A{
+  display: flex;
+  margin-top: 80px;
+  padding: 0 30px;
+}
+div.section3A img{
+  width: 180px;
+}
+div.section3A p{
+  font-size: 10px;
+  width: 80%;
+  margin-left: 15px;
+}
+div.section3A h2{
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+.section4A{
+  display: flex;
+  background-image: url('../src/images/bg-section-top-mobile-2.svg') ;
+  height: 200px;
+  margin-top: 40px;
+
+}
+div.section4A img{
+  width: 180px;
+  margin: 50px 20px 0 20px;
+}
+.section4A-1{
+  font-size: 10px;
+  width: 50%;
+  margin: 50px 20px;
+}
+.section-ready{
+  text-align: center;
+  margin: 50px 20px 0 10px;
+}
+
+div.section-ready button{
+  background-color: rgb(238, 95, 174);
+  border-color: rgb(238, 95, 174);
+  border-radius: 100px;
+  padding: 5px 40px;
+  color: white;
+  margin-top: 20px;
+}
+div.section-ready h1{
+  width: 120%;
+  font-size: 25px;
+  margin-left: -45px;
+}
+
+.footer-section{
+  background-image: url('../src/images/bg-footer-top-mobile.svg');
+  background-size: cover,contain;
+  margin-top: 60px;
+  display: flex;
+  margin-top: 20px;
+  font-size: 10px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.ready-img1{
+  width: 60%;
+  padding-bottom: 10px;
+}
+.section-ready1{
+  margin: 20px 0 0 20px;
+}
+.section-ready2{
+  margin: 20px 0 0 20px;
+}
+.readyp1{
+width: 80%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+div.readyp1 h1{
+  font-size: 15px;
+}
+
+.ready-form{
+  display: flex;
+}
+.ready-input{
+  border-radius: 5px;
+  width: 40%;
+  border-color: white;
+}
+.ready-button{
+  background-color: rgb(238, 95, 174);
+  border-color: rgb(238, 95, 174);
+  border-radius: 5px;
+  padding: 5px 0 ;
+  color: white;
+  width: 30%;
+  margin-left: 10px;
+  
+}
+.ready-image1{
+  display: flex;
+}
+div.ready-image1 p{
+  margin-left: 10px;
+}
+.ready-image2{
+  display: flex;
+}
+div.ready-image2 p{
+  margin-left: 10px;
+}
+.ready-img2{
+ width: 15px;
+ height: 10px;
+}
+.ready-img3{
+  width: 15px;
+  height: 10px;
+ }
+
+@media only screen and (max-width:1024){
+  body{
+    background-color: blue;
   }
-  to {
-    transform: rotate(360deg);
+
+  .button{
+    margin-left: 200px;
   }
 }
